@@ -1,0 +1,21 @@
+{
+  "name": "prichey.net",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev",
+    "inspect": "node --inspect node_modules/.bin/micro-dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "micro": "^9.3.4"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0",
+    "prettier": "^2.2.1"
+  }
+}
